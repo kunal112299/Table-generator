@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ede6e6;
+}
+.password-generator{
+    padding:10px 40px;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: rgb(218, 156, 133);
+    border: none;
+    font-weight: 600;
+    color: white;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+}
+button:hover{
+    background-color: orangered;
+    color: white;
+}
+.form-input{
+    width: full;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    h1{
+        font-family: "Sixtyfour Convergence", sans-serif;
+        font-size: 54px;
+        margin-bottom: 70px;
+    }
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    input{
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 30px;
+    }
+    button{
+        padding:10px 40px;
+        font-size: 16px;
+        border-radius: 10px;
+        background-color: rgb(218, 156, 133);
+        border: none;
+        font-weight: 600;
+        color: white;
+    }
+    button:hover{
+        background-color: orangered;
+        color: white;
+    }
+    input{
+        border: none;
+    }
+    label{
+        font-family: "Sixtyfour Convergence", sans-serif;
+    }
+}
+.table-container{
+    width: 90vw;
+}
+table{
+    border: 1px solid gray;
+    border: 90vw;
+}
+td{
+    border: 1px solid gray;
+    font-size: 18px;
+    padding: 40px;
+}
